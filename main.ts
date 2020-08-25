@@ -1,8 +1,8 @@
 //% color="#3943c6" block="ﾌﾟﾛｯﾀｰ・ｶｰ" icon="\uf1b9"
 
-namespace eureka_blocks_car {
-  //% color="#ff3d03" weight=59 blockId=eurekacar_buz_set block="ﾕｰﾚｶ車で音をならす" group="1_初期設定"
-  export function eurekacar_buz_set() {
+namespace eureka_plotter_car {
+  //% color="#ff3d03" weight=59 blockId=plottercar_front block="|f_distance| 前に進む" group="1_基本の動き"
+  export function plottercar_front(f_distance:number) {
     pins.analogSetPitchPin(AnalogPin.P0);
   }
   
